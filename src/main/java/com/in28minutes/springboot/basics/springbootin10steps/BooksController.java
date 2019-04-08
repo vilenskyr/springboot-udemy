@@ -12,6 +12,6 @@ public class BooksController {
 	@GetMapping("/books")
 	public List<Book> getAllBooks() {
 
-		return Arrays.asList(new Book(1L, "Salvation", "Peter F. Hamilton"));
+		return Arrays.asList(new Book(1L, "Salvation II", "Peter F. Hamilton"));
 	}
 }
